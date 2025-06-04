@@ -1,12 +1,12 @@
-import React from 'react';
-import { IndexedPokemon } from '../interfaces/pokemon.interface';
+import { ListPokemon } from '../interfaces/pokemon.interface';
 import PokemonCard from './PokemonCard';
 
 interface PokemonListProps {
-  pokemon: IndexedPokemon[];
+  pokemon: ListPokemon[];
 }
 
 const PokemonList = ({ pokemon }: PokemonListProps) => {
+  console.log(pokemon);
   return (
     <>
       {pokemon.length > 0
