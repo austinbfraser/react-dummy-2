@@ -5,7 +5,7 @@ interface PokemonCardProps {
 }
 
 const PokemonCard = ({ pokemon }: PokemonCardProps) => {
-  return <div>{pokemon.name}</div>;
+  return <div className="pokemonCard">{pokemon.name}</div>;
 };
 
 export default PokemonCard;

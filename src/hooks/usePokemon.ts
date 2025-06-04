@@ -21,7 +21,7 @@ const usePokemon = () => {
     }
   }
 
-  return pokemon;
+  return {pokemon};
 };
 
 export default usePokemon;

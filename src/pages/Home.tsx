@@ -6,7 +6,7 @@ const Home = () => {
   const { pokemon } = usePokemon();
 
   return (
-    <div><PokemonList pokemon={pokemon}></PokemonList></div>
+    <div className="pokemonList"><PokemonList pokemon={pokemon}></PokemonList></div>
   )
 }
 export default Home;
